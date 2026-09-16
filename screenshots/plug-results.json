@@ -1,0 +1,72 @@
+[
+  {
+    "name": "signup",
+    "status": "PASS",
+    "what": "plugqa1788131831931@paraf.id"
+  },
+  {
+    "name": "rail-developer",
+    "status": "PASS",
+    "what": "rail items with Developer: 1"
+  },
+  {
+    "name": "webhooks-page",
+    "status": "PASS",
+    "what": "Paraf Need help? EN PQ Documents Approvals Contracts Templates eMeterai Contacts Developer Settings Webhooks BYOK Webhooks Paraf → your HRIS / n8n / Slack. Same plug-and-play patt"
+  },
+  {
+    "name": "test-event-stream",
+    "status": "PASS",
+    "what": "stream shows document.sent"
+  },
+  {
+    "name": "connect-url",
+    "status": "PASS",
+    "what": "secret shown once"
+  },
+  {
+    "name": "ping",
+    "status": "PASS",
+    "what": "Webhook live. Copy the secret — shown once."
+  },
+  {
+    "name": "byok-page",
+    "status": "PASS",
+    "what": "Paraf Need help? EN PQ Documents Approvals Contracts Templates eMeterai Contacts Developer Settings Webhooks BYOK BYOK Bring your own signing key, inbound API key, and AI key. Sam"
+  },
+  {
+    "name": "byok-generate",
+    "status": "PASS",
+    "what": "secret shown once"
+  },
+  {
+    "name": "byok-test",
+    "status": "PASS",
+    "what": "Workspace key generated"
+  },
+  {
+    "name": "api-key",
+    "status": "PASS",
+    "what": "paraf_live_k_oom1kehgj…"
+  },
+  {
+    "name": "inbound-hooks",
+    "status": "PASS",
+    "what": "{\"status\":201,\"json\":{\"id\":\"doc_36uwsu5ijb1i\",\"token\":\"tok_16fvunz8jb1i\",\"signingUrl\":\"/s/tok_16fvunz8jb1i\",\"event\":\"document.sent\"}}"
+  },
+  {
+    "name": "inbound-list",
+    "status": "PASS",
+    "what": "{\"status\":200,\"n\":13,\"titles\":[\"HRIS offer letter\",\"SK-2026/DIR-021 · Surat Kuasa Pengurusan NPWP Cabang\",\"NDA-2026/LGL-008 · Perjanjian Kerahasiaan Vendor Cloud\",\"PKS-2026/HR-014 · Perjanjian Kerja Sama Distribusi\",\"SEWA-2026/OPS-009 · Per"
+  },
+  {
+    "name": "stream-after-hris",
+    "status": "PASS",
+    "what": "events still in stream"
+  },
+  {
+    "name": "pageerrors",
+    "status": "PASS",
+    "what": "none"
+  }
+]

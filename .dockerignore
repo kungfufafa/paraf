@@ -1,0 +1,13 @@
+node_modules
+.git
+.output
+.nitro
+.tanstack
+.vite
+screenshots
+artifacts
+*.log
+.grok/preview.log
+.grok/preview.pid
+qa-*.mjs
+qa-run.mjs

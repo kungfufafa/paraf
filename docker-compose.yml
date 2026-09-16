@@ -1,0 +1,50 @@
+# Paraf self-host: Postgres + app.
+#   docker compose up --build
+# Set BETTER_AUTH_URL to the public URL people will open (https://paraf.example.com).
+# Set BETTER_AUTH_SECRET to a long random string and keep it.
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: paraf
+      POSTGRES_PASSWORD: paraf
+      POSTGRES_DB: paraf
+    volumes:
+      - paraf_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U paraf -d paraf"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+
+  paraf:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      DATABASE_URL: postgres://paraf:paraf@postgres:5432/paraf
+      BETTER_AUTH_SECRET: ${BETTER_AUTH_SECRET:-change-this-to-a-long-random-secret-32+}
+      BETTER_AUTH_URL: ${BETTER_AUTH_URL:-http://localhost:8080}
+      VITE_AUTH_ENABLED: "true"
+      HOST: 0.0.0.0
+      PORT: "8080"
+      NITRO_HOST: 0.0.0.0
+      NITRO_PORT: "8080"
+      # Plug-and-play connectors (same as Settings / Developer modules)
+      XAI_API_KEY: ${XAI_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      EMETERAI_API_URL: ${EMETERAI_API_URL:-}
+      EMETERAI_API_TOKEN: ${EMETERAI_API_TOKEN:-}
+      PARAF_WEBHOOK_URL: ${PARAF_WEBHOOK_URL:-}
+      PARAF_WEBHOOK_SECRET: ${PARAF_WEBHOOK_SECRET:-}
+      PARAF_BYOK_SECRET: ${PARAF_BYOK_SECRET:-}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  paraf_pg:

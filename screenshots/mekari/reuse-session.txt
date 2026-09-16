@@ -1,0 +1,20 @@
+https://account.mekari.com/users/sign_in?client_id=e1urNpS68IK6US5e&return_to=L2F1dGg_Y2xpZW50X2lkPWUxdXJOcFM2OElLNlVTNWUmcmVzcG9uc2VfdHlwZT1jb2RlJnNjb3BlPXNzbzpwcm9maWxl
+Kode OTP yang anda masukkan tidak valid
+
+Sign in
+Email
+Password
+
+atau
+
+Sign in dengan Google
+Sign in dengan ID Karyawan
+Sign in dengan nomor telepon
+Sign in dengan SAML SSO
+Lupa password
+Buat akun
+Kebijakan privasiKetentuan penggunaanTentang Mekari Account
+English
+Bahasa Indonesia
+Satu akun untuk Jurnal, Klikpajak, Talenta dan Qontak
+© 2026 PT Mid Solusi Nusantara

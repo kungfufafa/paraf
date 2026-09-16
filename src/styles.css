@@ -1,0 +1,120 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-brand: #e85d04;
+  --color-brand-hover: #c44e03;
+  --color-brand-soft: #fff1e7;
+  --color-ink: #1b2430;
+  --color-muted: #5b6573;
+  --color-subtle: #8b95a3;
+  --color-bg: #f3f5f8;
+  --color-surface: #ffffff;
+  --color-surface-2: #eef1f5;
+  --color-border: #e2e6ec;
+  --color-border-strong: #c9d0d8;
+  --color-success: #0f7b4b;
+  --color-success-soft: #e6f6ee;
+  --color-warning: #b45309;
+  --color-warning-soft: #fef3e2;
+  --color-danger: #c2413b;
+  --color-danger-soft: #fdecec;
+  --color-info: #1d4e89;
+  --color-info-soft: #e8f1fa;
+  --color-sidebar: #ffffff;
+  --color-rail: #0c3b49;
+  --color-rail-2: #0a303c;
+  --color-rail-hover: #164a5a;
+  --color-header: #e85d04;
+  --color-paper: #fffefb;
+  --color-navy: #152033;
+  --color-navy-2: #1e2d46;
+  --font-sans: "Plus Jakarta Sans", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  --font-sign: "Great Vibes", cursive;
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --shadow-soft: 0 1px 2px rgb(27 36 48 / 0.05), 0 8px 24px rgb(27 36 48 / 0.05);
+  --shadow-paper: 0 1px 1px rgb(27 36 48 / 0.04), 0 12px 40px rgb(27 36 48 / 0.08);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  * {
+    border-color: var(--color-border);
+  }
+  ::selection {
+    background: var(--color-brand-soft);
+    color: var(--color-ink);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.paper-shadow {
+  box-shadow: var(--shadow-paper);
+}
+.sign-font {
+  font-family: var(--font-sign);
+}
+
+@keyframes paraf-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+.skeleton-shimmer {
+  background: linear-gradient(90deg, var(--color-surface-2) 25%, #f7f8fa 50%, var(--color-surface-2) 75%);
+  background-size: 200% 100%;
+  animation: paraf-shimmer 1.4s linear infinite;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  html,
+  body {
+    background: white !important;
+  }
+  .paper-shadow {
+    box-shadow: none !important;
+    max-width: none !important;
+  }
+}

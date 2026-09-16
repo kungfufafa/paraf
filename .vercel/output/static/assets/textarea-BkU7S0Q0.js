@@ -1,0 +1,1 @@
+import{r as e}from"./useRouter-Dp_HiUG-.js";import{a as t}from"./button-Dt8OzL9b.js";var n=e();function r({className:e,...r}){return(0,n.jsx)(`textarea`,{className:t(`flex min-h-24 w-full rounded-md border border-border bg-surface px-3 py-2 text-sm text-ink placeholder:text-subtle outline-none focus:border-brand focus:ring-2 focus:ring-brand/20`,e),...r})}export{r as t};

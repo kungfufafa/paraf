@@ -1,0 +1,77 @@
+[
+  {
+    "name": "signup/login",
+    "status": "PASS",
+    "extra": "http://127.0.0.1:8080/esignature/all-inbox"
+  },
+  {
+    "name": "integrations panel",
+    "status": "PASS",
+    "extra": "\nSettings\nSettings\nAccount\nUser management\nPreferences\neSignature\nStamp\nNotification\nPersonalization\nQuota usage\neMeterai API\nAI review\nIntegrations\nTimestamp (TSA)\nSubscription\nIntegrations\nGoogle Dr"
+  },
+  {
+    "name": "create api key",
+    "status": "PASS",
+    "extra": "paraf_live_k_2hmll5o2zaxsk_j"
+  },
+  {
+    "name": "GET /api/v1/me",
+    "status": "PASS",
+    "extra": "200 {\"ok\":true,\"email\":\"intqa1788129234385@paraf.id\",\"name\":\"Int QA\",\"company\":\"PT Jaya Wijaya Kusuma\",\"plan\":\"Pro\"}"
+  },
+  {
+    "name": "GET /api/v1/openapi",
+    "status": "PASS",
+    "extra": "200"
+  },
+  {
+    "name": "POST /api/v1/documents",
+    "status": "PASS",
+    "extra": "{\"id\":\"doc_76e3tjgrzbnh\",\"token\":\"tok_zatznr02zbnh\",\"signingUrl\":\"/s/tok_zatznr02zbnh\"}"
+  },
+  {
+    "name": "GET document + tsa",
+    "status": "PASS",
+    "extra": "[{\"serial\":\"TSA_63A5V68CZBNU\",\"createdAt\":\"2026-08-30T22:33:59.754Z\"}]"
+  },
+  {
+    "name": "GET /api/v1/tsa/:serial",
+    "status": "PASS",
+    "extra": "{\"serial\":\"TSA_63A5V68CZBNU\",\"valid\":true,\"title\":\"HRIS PKWT\",\"createdAt\":\"2026-08-30T22:33:59.754Z\",\"token\":{\"v\":1,\"policy\":\"paraf-tsa-v1\",\"serial\":\"TSA_63A5V68CZBNU\",\"genTime\":\"2"
+  },
+  {
+    "name": "verify page TSA",
+    "status": "PASS",
+    "extra": "Paraf\nVerify document / e-Meterai / TSA\n\nPaste a signing token, an e-Meterai serial, or a Paraf TSA serial.\n\nCheck\nSerial\nPARAF TSA TOKEN — CHAIN INTACT\nTSA_63A5V68CZBNU\n\nHRIS PKWT\n\n2026-08-30T22:33:59.754Z · hash 495b75"
+  },
+  {
+    "name": "GET /api/v1/tsa",
+    "status": "PASS",
+    "extra": "200"
+  },
+  {
+    "name": "ai review panel",
+    "status": "PASS",
+    "extra": ""
+  },
+  {
+    "name": "tsa settings panel",
+    "status": "PASS",
+    "extra": ""
+  },
+  {
+    "name": "send wizard cloud buttons",
+    "status": "PASS",
+    "extra": ""
+  },
+  {
+    "name": "proofs tsa ledger",
+    "status": "PASS",
+    "extra": "Paraf\nNeed help?\nEN\nIQ\nDocuments\nApprovals\nContracts\nTemplates\neMeterai\nContacts\nSettings\nUpload\nDownload\nDocuments\nAll inboxes\nNeed to sign\nWaiting for others\nExpiring soon\nCompleted\nFolders\nFinance\nHR\nLegal\nUmum\nSignin"
+  },
+  {
+    "name": "ai page",
+    "status": "PASS",
+    "extra": ""
+  }
+]

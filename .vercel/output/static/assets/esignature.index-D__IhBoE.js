@@ -1,0 +1,1 @@
+import{r as e}from"./useRouter-Dp_HiUG-.js";import{t}from"./useNavigate-CkAEBVfH.js";var n=e(),r=()=>(0,n.jsx)(t,{to:`/esignature/$folder`,params:{folder:`all-inbox`}});export{r as component};

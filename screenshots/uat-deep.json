@@ -1,0 +1,311 @@
+{
+  "email": "uata1789562295699@paraf.id",
+  "pass": "ParafDemo123!",
+  "passCount": 50,
+  "failCount": 0,
+  "results": [
+    {
+      "mod": "AUTH",
+      "name": "Sign up fresh account",
+      "status": "PASS",
+      "what": "uata1789562295699@paraf.id",
+      "url": "/esignature/all-inbox"
+    },
+    {
+      "mod": "INBOX",
+      "name": "Search documents",
+      "status": "PASS",
+      "what": "PKS-2026/HR-014 · Perjanjian Kerja Sama Distribusi"
+    },
+    {
+      "mod": "INBOX",
+      "name": "Status filter",
+      "status": "PASS",
+      "what": "10 options"
+    },
+    {
+      "mod": "INBOX",
+      "name": "KPI cards navigate",
+      "status": "PASS",
+      "url": "/esignature/need-to-sign"
+    },
+    {
+      "mod": "INBOX",
+      "name": "Folder sent",
+      "status": "PASS",
+      "what": "Sent",
+      "url": "/esignature/sent"
+    },
+    {
+      "mod": "INBOX",
+      "name": "Folder scheduled",
+      "status": "PASS",
+      "what": "Scheduled",
+      "url": "/esignature/scheduled"
+    },
+    {
+      "mod": "INBOX",
+      "name": "Folder drafts",
+      "status": "PASS",
+      "what": "Drafts",
+      "url": "/esignature/drafts"
+    },
+    {
+      "mod": "INBOX",
+      "name": "Folder trash",
+      "status": "PASS",
+      "what": "Trash",
+      "url": "/esignature/trash"
+    },
+    {
+      "mod": "INBOX",
+      "name": "Folder shared",
+      "status": "PASS",
+      "what": "Shared with me",
+      "url": "/esignature/shared"
+    },
+    {
+      "mod": "INBOX",
+      "name": "Folder getting-started",
+      "status": "PASS",
+      "what": "Welcome to Paraf",
+      "url": "/esignature/getting-started"
+    },
+    {
+      "mod": "INBOX",
+      "name": "Getting started how-to links",
+      "status": "PASS"
+    },
+    {
+      "mod": "INBOX",
+      "name": "Row More menu items",
+      "status": "PASS",
+      "what": "Document info | Share | Resend | Remind | Duplicate | Move to Finance | Move to HR | Move to Legal | Move to Umum | Void | Delete"
+    },
+    {
+      "mod": "INBOX",
+      "name": "More → Document info",
+      "status": "PASS",
+      "url": "/documents/doc_gh2yr0vo6r6b"
+    },
+    {
+      "mod": "INBOX",
+      "name": "More → Duplicate",
+      "status": "PASS",
+      "what": "Draft copy created",
+      "url": "/documents/doc_l3wuyc9a70jq"
+    },
+    {
+      "mod": "INBOX",
+      "name": "Upload dropdown",
+      "status": "PASS",
+      "what": "Upload document | Request eMeterai | Bulk send"
+    },
+    {
+      "mod": "SEND",
+      "name": "Wizard steps + file import + send",
+      "status": "PASS",
+      "what": "Dokumen terkirim"
+    },
+    {
+      "mod": "SEND",
+      "name": "Cloud import buttons",
+      "status": "PASS",
+      "what": "dialog=4"
+    },
+    {
+      "mod": "SEND",
+      "name": "eMeterai intent",
+      "status": "PASS",
+      "what": ""
+    },
+    {
+      "mod": "SIGN",
+      "name": "I agree → Start → Finish",
+      "status": "PASS",
+      "what": "doc_v79hjapm732y"
+    },
+    {
+      "mod": "DOC",
+      "name": "Detail actions",
+      "status": "PASS",
+      "url": "/documents/doc_v79hjapm732y",
+      "what": "Pengingat terkirim"
+    },
+    {
+      "mod": "DOC",
+      "name": "AI analyze link",
+      "status": "PASS",
+      "url": "/ai?id=doc_v79hjapm732y"
+    },
+    {
+      "mod": "PUBLIC",
+      "name": "Invite link /s/:token",
+      "status": "PASS",
+      "url": "/s/inv_6i4xxy2t732z"
+    },
+    {
+      "mod": "APPROVALS",
+      "name": "Request + decide",
+      "status": "PASS",
+      "what": "Request sent"
+    },
+    {
+      "mod": "APPROVALS",
+      "name": "Create flow template",
+      "status": "PASS"
+    },
+    {
+      "mod": "CONTRACTS",
+      "name": "Page + search",
+      "status": "PASS",
+      "what": "Contracts"
+    },
+    {
+      "mod": "TEMPLATES",
+      "name": "Create / edit / bulk / delete",
+      "status": "PASS"
+    },
+    {
+      "mod": "TEMPLATES",
+      "name": "Bulk send uses template",
+      "status": "PASS",
+      "url": "/bulk?template=tpl_soq0rijh6r5c"
+    },
+    {
+      "mod": "BULK",
+      "name": "Sample files create drafts",
+      "status": "PASS",
+      "url": "/esignature/drafts"
+    },
+    {
+      "mod": "EMETERAI",
+      "name": "Buy quota",
+      "status": "PASS",
+      "what": "+20 eMeterai added"
+    },
+    {
+      "mod": "EMETERAI",
+      "name": "Assign eMeterai",
+      "status": "PASS",
+      "what": "+20 eMeterai added"
+    },
+    {
+      "mod": "EMETERAI",
+      "name": "Use in document",
+      "status": "PASS",
+      "url": "/send?intent=emeterai"
+    },
+    {
+      "mod": "CONTACTS",
+      "name": "Add + search",
+      "status": "PASS"
+    },
+    {
+      "mod": "SETTINGS",
+      "name": "Integrations panel",
+      "status": "PASS"
+    },
+    {
+      "mod": "WEBHOOKS",
+      "name": "Test event stream",
+      "status": "PASS"
+    },
+    {
+      "mod": "WEBHOOKS",
+      "name": "Connect URL",
+      "status": "PASS",
+      "what": "Test event written to the stream"
+    },
+    {
+      "mod": "WEBHOOKS",
+      "name": "Ping",
+      "status": "PASS",
+      "what": "Test event written to the stream"
+    },
+    {
+      "mod": "BYOK",
+      "name": "Generate signing key",
+      "status": "PASS",
+      "what": "Workspace key generated"
+    },
+    {
+      "mod": "BYOK",
+      "name": "Test connection",
+      "status": "PASS",
+      "what": "Workspace key generated"
+    },
+    {
+      "mod": "BYOK",
+      "name": "Create inbound API key",
+      "status": "PASS",
+      "what": "paraf_live_k_2tnzqh217…"
+    },
+    {
+      "mod": "API",
+      "name": "GET /api/v1/me",
+      "status": "PASS",
+      "what": "{\"ok\":true,\"email\":\"uata1789562295699@paraf.id\",\"name\":\"UAT Paraf\",\"company\":\"PT Jaya Wijaya Kusuma\",\"plan\":\"Pro\"}"
+    },
+    {
+      "mod": "API",
+      "name": "GET /api/v1/openapi",
+      "status": "PASS",
+      "what": "200"
+    },
+    {
+      "mod": "API",
+      "name": "POST /api/v1/documents",
+      "status": "PASS",
+      "what": "{\"id\":\"doc_u5w5crad7z6h\",\"token\":\"tok_6xwrxvdr7z6h\",\"signingUrl\":\"/s/tok_6xwrxvdr7z6h\",\"recipients\":[{\"name\":\"Ada\",\"email\":\"ada@co.id\",\"signingUrl\":\"/s/inv_t2zscra67z6j\"}]}"
+    },
+    {
+      "mod": "API",
+      "name": "POST /api/v1/hooks inbound",
+      "status": "PASS",
+      "what": "{\"id\":\"doc_m95r3ds27z7b\",\"token\":\"tok_21frf6qc7z7b\",\"signingUrl\":\"/s/tok_21frf6qc7z7b\",\"recipients\":[{\"name\":\"Bimo\",\"email\":\"bimo@co.id\",\"signingUrl\":\"/s/inv_og5qb7ub7z7g\"}],\"event"
+    },
+    {
+      "mod": "API",
+      "name": "GET /api/v1/tsa",
+      "status": "PASS",
+      "what": "TSA_O6Z3AOK67Z7P"
+    },
+    {
+      "mod": "API",
+      "name": "GET /api/v1/tsa/:serial public",
+      "status": "PASS",
+      "what": "{\"serial\":\"TSA_O6Z3AOK67Z7P\",\"valid\":true,\"title\":\"HRIS offer letter\",\"createdAt\":\"2026-09-16T12:39:15.976Z\",\"token\":{\"v\":1,\"policy\":\"paraf-byok-v1\",\"serial\":\"T"
+    },
+    {
+      "mod": "VERIFY",
+      "name": "Public TSA page",
+      "status": "PASS",
+      "what": "TSA_O6Z3AOK67Z7P"
+    },
+    {
+      "mod": "PROOFS",
+      "name": "Timestamp ledger",
+      "status": "PASS"
+    },
+    {
+      "mod": "AI",
+      "name": "Help / review page",
+      "status": "PASS",
+      "what": "Help"
+    },
+    {
+      "mod": "STAMPS",
+      "name": "Stamp page",
+      "status": "PASS",
+      "url": "/stamps"
+    },
+    {
+      "mod": "CONSOLE",
+      "name": "Uncaught page errors",
+      "status": "PASS",
+      "what": "none"
+    }
+  ],
+  "consoleErrors": []
+}
