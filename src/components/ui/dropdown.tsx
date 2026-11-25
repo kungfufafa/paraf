@@ -19,7 +19,7 @@ export function MenuContent({
         align={align}
         sideOffset={6}
         className={cn(
-          "z-50 min-w-44 rounded-md border border-border bg-surface p-1 shadow-soft",
+          "z-50 min-w-44 rounded-xl border border-border bg-surface p-1 shadow-soft",
           className,
         )}
       >
@@ -45,7 +45,7 @@ export function MenuItem({
       disabled={disabled}
       onSelect={onSelect}
       className={cn(
-        "flex cursor-pointer items-center gap-2 rounded-sm px-2 py-1.5 text-sm outline-none",
+        "flex cursor-pointer items-center gap-2 rounded-lg px-2.5 py-1.5 text-[13px] outline-none data-[highlighted]:bg-surface-2",
         danger ? "text-danger hover:bg-danger-soft" : "text-ink hover:bg-surface-2",
         disabled && "opacity-40",
       )}
