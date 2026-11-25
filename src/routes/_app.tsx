@@ -41,20 +41,16 @@ function AppLayout() {
 
 function ShellSkeleton() {
   return (
-    <div className="min-h-screen bg-bg">
-      <div className="h-12 bg-header" />
-      <div className="flex min-h-[calc(100vh-48px)]">
-        <div className="hidden w-[92px] bg-rail md:block" />
-        <div className="hidden w-56 border-r border-border bg-surface md:block" />
-        <div className="flex-1 p-6">
-          <div className="skeleton-shimmer h-8 w-48 rounded-md" />
-          <div className="mt-6 grid grid-cols-2 gap-2 md:grid-cols-5">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <div key={i} className="skeleton-shimmer h-20 rounded-lg" />
-            ))}
-          </div>
-          <div className="mt-6 skeleton-shimmer h-64 rounded-lg" />
+    <div className="flex min-h-screen bg-bg">
+      <div className="hidden w-[248px] shrink-0 border-r border-border bg-surface md:block" />
+      <div className="flex-1 px-4 pt-8 md:px-6">
+        <div className="skeleton-shimmer h-8 w-56 rounded-lg" />
+        <div className="mt-6 grid grid-cols-2 gap-3 md:grid-cols-4">
+          {Array.from({ length: 4 }).map((_, i) => (
+            <div key={i} className="skeleton-shimmer h-28 rounded-2xl" />
+          ))}
         </div>
+        <div className="mt-3 skeleton-shimmer h-72 rounded-2xl" />
       </div>
     </div>
   );
